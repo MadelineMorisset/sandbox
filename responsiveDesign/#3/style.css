@@ -1,0 +1,18 @@
+.txt-input {
+    padding: 5px;
+    font-size: 18px;
+    display: block;
+    margin: 50px auto 0;
+}
+
+@media (min-width: 800px) and (max-width: 1300px) {
+    .txt-input {
+        width: 600px;
+    }
+}
+
+@media (orientation: portrait) {
+    .txt-input {
+        background-color: crimson;
+    }
+}

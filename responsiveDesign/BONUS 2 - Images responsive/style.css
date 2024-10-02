@@ -1,0 +1,25 @@
+.waterfall_min,
+.waterfall_moy {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .waterfall_max {
+        display: none;
+    }
+
+    .waterfall_moy {
+        display: flex;
+    }
+}
+
+@media (max-width: 500px) {
+    .waterfall_moy, /* je rajoute cette classe car sinon, cette image apparait en-dessous de celle de 400px */
+    .waterfall_max {
+        display: none;
+    }
+
+    .waterfall_min {
+        display: flex;
+    }
+}

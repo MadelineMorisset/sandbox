@@ -1,0 +1,19 @@
+.box-1 {
+    margin-bottom: 20px;
+}
+
+@media (min-width: 512px) {
+    .box {
+        height: 200px;
+    }
+}
+
+@media (min-width: 900px) {
+    .container {
+        margin: 0 auto;
+        max-width: 80%;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+}

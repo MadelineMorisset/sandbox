@@ -1,0 +1,22 @@
+div {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: crimson;
+    border: 10px solid grey;
+}
+
+@media (max-width: 1700px) {
+    div {
+        background-color: brown;
+        border: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    div {
+        border-radius: 0%; /* 0 ou 0% c'est pareil */
+        background-color: green;
+        border: 10px solid blue;
+    }
+}
