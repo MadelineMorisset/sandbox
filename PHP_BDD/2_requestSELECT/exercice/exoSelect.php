@@ -8,6 +8,13 @@ try {
 } catch (Exception $e) {
     die("Erreur: " . $e->getMessage());
 }
+// --------------
+// Exercice Select :
+// Afficher les noms et prénoms de chaque élément de la BD tests
+// - créer la Base de Données
+// - insérer la table et les données avec phpMyAdmin
+// - créer un fichier exoSelect.php
+// - se connecter à votre BD, afficher ligne par ligne, les noms et prénoms de chaque élément de la BD 
 
 $requete_sql = "SELECT * FROM famille_table";
 $reponse = $db->query($requete_sql);

@@ -1,6 +1,9 @@
 <?PHP 
-// Modifier par exemple root, en ajoutant ou supprimant une lettre pour vérifier si la connexion est ok 
-// Ou sinon décommenter la ligne 10 avec l'echo
+// Exercices Connexion : 
+// Essayer de vous connecter à une de vos bases de données. 
+// Essayer de rater votre connexion en ajoutant ou supprimant une lettre pour vérifier si la connexion est ok 
+
+// Ou sinon décommenter la ligne 10 avec l'echo, pour être vraiment sûr
 try {
     $db = new PDO("mysql:host=localhost;dbname=mydiscbox", 
                   "root", 
