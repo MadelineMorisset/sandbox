@@ -1,0 +1,27 @@
+------------------------------------------------------------------------
+                            Exercice complet
+------------------------------------------------------------------------
+
+        Récupérer la base de données “Liste des villes françaises” 
+            (http://sql.sh/categorie/bases-donnees-gratuites) 
+
+------------------------------------------------------------------------
+    1° Afficher dans un tableau html les villes et 
+       codes postaux de chaque élément de la BD
+
+    2°  Créer un formulaire d’inscription (ville, code postal) 
+        et insérer cette nouvelle ville dans cette table.
+
+    3° Mettre en place un fonctionnement pour pouvoir modifier 
+       le code postal d’une ville
+
+    4° Mettre en place un fonctionnement pour pouvoir supprimer 
+       une ville
+------------------------------------------------------------------------
+Bonus : 
+    1° Ajouter sous le tableau une pagination, 
+       permettant de naviguer de 10 en 10 résultats
+
+    2° Ajouter sous le tableau un select qui permettra 
+       d’afficher le nombre de villes (lignes du tableau) en 25/50/100. 
+------------------------------------------------------------------------
