@@ -20,8 +20,6 @@
     4° Ajouter un champs Année de naissance et  "Bonjour xxx yyy, vous habitez zzz. Vous avez aaa ans"
     -->
 
-  <?php $nom; $prenom; $ville; $annee; ?>
-
   <form action="resultat.php" method="$_GET">
     Nom : <input type="text" name="nom">
     Prénom : <input type="text" name="prenom">
