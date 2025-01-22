@@ -193,7 +193,7 @@ nav {
     transition: transform 0.1s;
     width: 100%;
     object-fit: cover;
-    aspect-ratio: 20 / 30;
+    aspect-ratio: 200 / 296;
     /* trouver comment gérer la différence de taille au survol */
 }
 
