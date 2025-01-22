@@ -57,6 +57,7 @@ h2 {
 .hero-header {
     height: 100vh;
     background-image: url("../images/background/tmnt.jpg");
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
 }
@@ -194,7 +195,7 @@ nav {
     width: 100%;
     object-fit: cover;
     aspect-ratio: 200 / 296;
-    /* trouver comment gérer la différence de taille au survol */
+    display: block;
 }
 
 .comic:hover .comic-img img {
