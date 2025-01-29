@@ -60,6 +60,7 @@
           $morse = isset($_GET["zone_texte_morse"]) ? $_GET["zone_texte_morse"] : ''; 
           $tableauMorseATraduire = explode(" ", $morse);
 
+          // Revoir la boucle avec array_search
           foreach ($tableauMorseATraduire as $cleMorseATraduire => $valeurMorseATraduire) {
             foreach ($caracteres_morse_traduit as $cleFrancaisAComparer => $valeurFrancaisAComparer) {
               if ($valeurMorseATraduire === $valeurFrancaisAComparer) {
